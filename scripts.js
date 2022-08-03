@@ -120,3 +120,16 @@ for (let index = 0; index < arr.length; index++) {
        console.log(index) 
     }
 } */
+
+// loop 14
+//Дан массив с числами. Числа могут быть положительными и отрицательными. Найдите сумму положительных элементов массива.
+
+/* let arr = [4, 1, -3, 10, -4, -6, 10];
+let result = 0;
+for (let index = 0; index < arr.length; index++) {
+    
+if (arr[index] > 0) {
+        result += arr[index];
+    }   
+}
+console.log(result) */
