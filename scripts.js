@@ -96,3 +96,9 @@ else {
 /* for (let index = 1950; index <= 2000; index = index+2) {
     console.log(index)
 } */
+
+// loop 11
+/* for (let i = 0; i < 11; i++) { 
+  console.log(10-i); 
+  console.log(i);
+} */
