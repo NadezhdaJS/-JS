@@ -37,8 +37,14 @@ for (let index = 0; index <= 7; index++) {
 
 //3 loop
 
-for (let index = 1; index <= 122; index++) {
+/* for (let index = 1; index <= 122; index++) {
     if (index%2 == 0) {
         console.log(index)
     }
-}
+} */
+
+//4 loop
+
+/* for (let index = 25; index >= 7; index--) {
+    console.log(index)
+} */
