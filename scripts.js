@@ -48,3 +48,10 @@ for (let index = 0; index <= 7; index++) {
 /* for (let index = 25; index >= 7; index--) {
     console.log(index)
 } */
+// 5 loop
+/* for (let index = 77; index >= 35; index--) {
+    if (index%3 == 0) {
+        console.log(index)
+    }
+    
+} */
