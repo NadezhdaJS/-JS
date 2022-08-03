@@ -63,3 +63,10 @@ for (let index = 0; index < times; index++) {
     console.log('******')
 }
  */
+
+//loop 7
+/* let pushNumber = 12;
+for (let index = pushNumber; index >= 0; index--) {
+    console.log(index)
+    
+} */
