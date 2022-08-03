@@ -102,3 +102,11 @@ else {
   console.log(10-i); 
   console.log(i);
 } */
+
+// loop 12
+/* let result = 0;
+let arr = [25, 25, 50];
+for (let index = 0; index < arr.length; index++) {
+    result += arr[index];  
+}
+console.log(result) */
