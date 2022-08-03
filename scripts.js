@@ -16,7 +16,7 @@ else if (flat >= 49 && flat <= 90) {
 } */
 
 
-let array = [1, 2, 3, 4, 5, 6, 7]
+/* let array = [1, 2, 3, 4, 5, 6, 7]
 for (let index = 0; index <= 7; index++) {
 
     if (index === 0) {
@@ -29,4 +29,16 @@ for (let index = 0; index <= 7; index++) {
         array[index] = console.log('Chapter ' + index)
     }
 
+} */
+
+/* for (let index = 1; index < 51; index++) {
+    console.log(index)
+} */
+
+//3 loop
+
+for (let index = 1; index <= 122; index++) {
+    if (index%2 == 0) {
+        console.log(index)
+    }
 }
