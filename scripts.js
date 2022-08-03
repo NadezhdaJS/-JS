@@ -51,7 +51,15 @@ for (let index = 0; index <= 7; index++) {
 // 5 loop
 /* for (let index = 77; index >= 35; index--) {
     if (index%3 == 0) {
-        console.log(index)
+        console.log(index + '_')
     }
     
 } */
+
+//loop 6
+
+/* let times = 9;
+for (let index = 0; index < times; index++) {
+    console.log('******')
+}
+ */
