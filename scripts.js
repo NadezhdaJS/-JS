@@ -77,3 +77,17 @@ let input2 = 8;
 for (let index = input1; index <= input2; index++) {
     console.log(index)   
 } */
+
+//loop 9
+/* let input3 = 7;
+let input4 = 2;
+if (input3 < input4) {
+   for (let index = input3; index <= input4; index++) {
+    console.log(index)
+   } 
+}
+else {
+    for (let index = input4; index <=input3; index++) {
+      console.log(index)
+    }
+} */
