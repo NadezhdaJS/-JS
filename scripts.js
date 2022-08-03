@@ -91,3 +91,8 @@ else {
       console.log(index)
     }
 } */
+
+//loop 10
+/* for (let index = 1950; index <= 2000; index = index+2) {
+    console.log(index)
+} */
