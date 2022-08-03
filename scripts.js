@@ -110,3 +110,13 @@ for (let index = 0; index < arr.length; index++) {
     result += arr[index];  
 }
 console.log(result) */
+
+// loop 13
+//Дан массив с элементами 2, 5, 9, 15, 0, 4. С помощью цикла for и оператора if выведите на экран столбец тех элементов массива, которые больше 3-х, но меньше 10.
+
+/* let arr = [2, 5, 9, 15, 0, 4];
+for (let index = 0; index < arr.length; index++) {
+    if (index > 3 && index < 10) {
+       console.log(index) 
+    }
+} */
