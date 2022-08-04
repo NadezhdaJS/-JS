@@ -186,4 +186,11 @@ for (let index = 0; index < week.length; index++) {
 //loop 19
  //Дано число n=1000. Делите его на 2 столько раз, пока результат деления не станет меньше 50. Какое число получится? Посчитайте количество итераций, необходимых для этого (итерация - это проход цикла), и запишите его в переменную num.
 
+/* let num = 5;
+for (let index = 1000; index > 50; index++) {
+   index /= 2;
+console.log(index)
+    
+} */
+
 // https://w3resource.com/javascript-exercises/javascript-conditional-statements-and-loops-exercises.php
