@@ -191,12 +191,10 @@ console.log(index)
     
 } */
 
-// https://w3resource.com/javascript-exercises/javascript-conditional-statements-and-loops-exercises.php
-
 //loop 20
 //Write a JavaScript program which iterates the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz"
 
-for (let i = 1; i <= 100; i++) {
+/* for (let i = 1; i <= 100; i++) {
   if (i % 3 == 0) {
     console.log(i + " Fizz");
   } else if (i % 5 == 0) {
@@ -206,4 +204,38 @@ for (let i = 1; i <= 100; i++) {
   } else {
     console.log(i);
   }
+} */
+
+//loop 21
+//Get the sum of two arrays…actually the sum of all their elements.
+
+/* let arr2 = [9, 2, 42, 55, 71, 22, 4, 5, 90, 25, 26];
+let arr1 = [3, 5, 22, 5, 7, 2, 45, 75, 89, 21, 2];
+
+let getSum1 = 0;
+for (let i = 0; i < arr1.length; i++) {
+  getSum1 += arr1[i];
 }
+
+let getSum2 = 0;
+for (let i = 0; i < arr2.length; i++) {
+  getSum2 += arr2[i];
+}
+
+let sum = getSum1 + getSum2;
+console.log(getSum1, getSum2, sum); */
+
+//Как сложить элементы одного массива?
+/* let sum =
+  arr1[0] +
+  arr1[1] +
+  arr1[2] +
+  arr1[3] +
+  arr1[4] +
+  arr1[5] +
+  arr1[6] +
+  arr1[7] +
+  arr1[8] +
+  arr1[9] +
+  arr1[10];
+console.log(sum); */
