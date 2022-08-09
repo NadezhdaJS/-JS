@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 /* <!-- Task 1 -->
 <!-- В первом подъезде квартиры с 1 по 20. Во втором с 21 по 48. В третьем с 49 по 90. Пользователь вводит номер квартиры. Программа должна указать в каком подъезде находится данная квартира.
 
@@ -14,7 +14,6 @@ else if (flat >= 49 && flat <= 90) {
 } else {
     console.log(`Такой квартиры нет в этом доме`)
 } */
-
 
 /* let array = [1, 2, 3, 4, 5, 6, 7]
 for (let index = 0; index <= 7; index++) {
@@ -170,7 +169,7 @@ for (let index = 0; index < week.length; index++) {
  */
 
 //loop 18
- //Составьте массив дней недели. С помощью цикла for выведите все дни недели, а текущий день выведите день с эмоджи. Текущий день должен храниться в переменной day.
+//Составьте массив дней недели. С помощью цикла for выведите все дни недели, а текущий день выведите день с эмоджи. Текущий день должен храниться в переменной day.
 /* let week = ['понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота', 'воскресенье'];
 let today = 'вторник';
 for (let index = 0; index < week.length; index++) {
@@ -181,10 +180,9 @@ for (let index = 0; index < week.length; index++) {
     console.log(week[index])
 }
 } */
-    
 
 //loop 19
- //Дано число n=1000. Делите его на 2 столько раз, пока результат деления не станет меньше 50. Какое число получится? Посчитайте количество итераций, необходимых для этого (итерация - это проход цикла), и запишите его в переменную num.
+//Дано число n=1000. Делите его на 2 столько раз, пока результат деления не станет меньше 50. Какое число получится? Посчитайте количество итераций, необходимых для этого (итерация - это проход цикла), и запишите его в переменную num.
 
 /* let num = 5;
 for (let index = 1000; index > 50; index++) {
@@ -194,3 +192,18 @@ console.log(index)
 } */
 
 // https://w3resource.com/javascript-exercises/javascript-conditional-statements-and-loops-exercises.php
+
+//loop 20
+//Write a JavaScript program which iterates the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz"
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 == 0) {
+    console.log(i + " Fizz");
+  } else if (i % 5 == 0) {
+    console.log(i + " Buzz");
+  } else if (i % 3 == 0 && i % 5 == 0) {
+    console.log(i + " FizzBuzz");
+  } else {
+    console.log(i);
+  }
+}
