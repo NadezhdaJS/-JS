@@ -258,11 +258,18 @@ for (let i = arr.length - 1; i >= 0; i--) {
 
 // loop 24
 //Given two arrays of integers. Add up each element in the same position and create a new array containing the sum of each pair. Assume both arrays are of the same length.
-let arr3 = [4, 6, 7];
+/* let arr3 = [4, 6, 7];
 let arr4 = [8, 1, 9];
 let arr = [];
 for (let i = 0; i <= 2; i++) {
   let sum = arr3[i] + arr4[i];
   arr.push(sum);
 }
-console.log(arr);
+console.log(arr); */
+// loop 25
+//Given a number n Calculate the factorial of the number
+/* let n = 4;
+for (let i = n - 1; i > 0; i--) {
+  n *= i;
+}
+console.log(n); */
