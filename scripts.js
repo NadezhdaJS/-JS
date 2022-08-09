@@ -239,3 +239,12 @@ console.log(getSum1, getSum2, sum); */
   arr1[9] +
   arr1[10];
 console.log(sum); */
+
+//loop 22
+//Using a for loop print all even numbers up to and including n. Don’t include 0.
+/* let n = 22;
+for (let i = 1; i <= n; i++) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
+} */
